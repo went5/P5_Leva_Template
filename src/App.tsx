@@ -5,7 +5,7 @@ import { useControls } from "leva";
 
 export default function App() {
   const data = useControls(() => ({
-    Color: "#1A202C"
+    Color: "#030405"
   }));
   const setup = (p: p5Types, canvasParentRef: Element) => {
     p.createCanvas(500, 500).parent(canvasParentRef);
