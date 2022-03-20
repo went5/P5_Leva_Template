@@ -8,7 +8,7 @@ export default function App() {
     Color: "#030405"
   }));
   const setup = (p: p5Types, canvasParentRef: Element) => {
-    p.createCanvas(500, 500).parent(canvasParentRef);
+    p.createCanvas(p.windowWidth, p.windowHeight).parent(canvasParentRef);
   };
   const draw = (p: p5Types) => {
     p.background(data[0].Color);
